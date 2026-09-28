@@ -1,0 +1,89 @@
+Q1. Boundary Value Analysis (BVA)
+
+Given Range: 18 to 99
+
+Lower Boundary Test Values:
+17 - Invalid
+18 - Valid
+19 - Valid
+
+Upper Boundary Test Values:
+98 - Valid
+99 - Valid
+100 - Invalid
+
+Therefore, the BVA test cases are:
+17, 18, 19, 98, 99, 100
+
+
+
+
+Question 2: Equivalence Class Partitioning (ECP)
+
+Passing Marks: 60
+Maximum Marks: 100
+
+Invalid Equivalence Classes:
+Marks below 60
+Marks above 100
+
+Valid Equivalence Class (VEC):
+60 to 100
+
+Test Values:
+59  - Invalid
+60  - Valid
+80  - Valid
+100 - Valid
+101 - Invalid
+
+
+Question 3
+
+Total Equivalence Classes = 4
+
+Equivalence Classes:
+1. Up to 25 years
+2. 26 to 39 years
+3. 40 to 64 years
+4. 65 years and above
+
+Normal BVA Test Values:
+24, 25, 26
+39, 40, 41
+64, 65, 66
+
+
+Question 4
+
+EC1: Age < 8 → Eligible
+EC2: Age 8–35 → Not Eligible
+EC3: Age >35 and <45 → Eligible
+EC4: Age 45–60 → Not Eligible
+EC5: Age >60 → Eligible
+
+Total Equivalence Classes = 5
+
+
+
+
+Question 5
+
+< 5 → Invalid
+5–99 → Valid, No Discount
+≥ 100 → Valid, 20% Discount
+
+Test Cases: 4, 5, 99, 100, 101
+EC = 3
+
+
+
+QUESTION 6
+
+< 0 years       → Invalid
+0–2 years       → No Bonus (0%)
+>2–<5 years     → 10% Bonus
+5–<10 years     → 25% Bonus
+≥10 years       → 35% Bonus
+
+Total ECP = 5
